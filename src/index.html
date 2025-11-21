@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Event Homework</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="center-box">
+
+  <button id="target-btn">Целевой элемент</button>
+
+  <div style="margin-top: 20px;">
+    <button id="add-events">Добавить события</button>
+    <button id="remove-events">Удалить события</button>
+  </div>
+
+  <h2>Статус</h2>
+  <pre id="status">События ещё не добавлены…</pre>
+</div>
+
+<div class="separator"></div>
+
+<div class="separator"></div>
+
+<div class="carousel-wrapper">
+  
+  <div class="carousel-container">
+    <button class="arrow left">&lt;</button>
+
+    <div class="carousel">
+      <div class="item" data-id="1">Элемент 1</div>
+      <div class="item" data-id="2">Элемент 2</div>
+      <div class="item" data-id="3">Элемент 3</div>
+      <div class="item" data-id="4">Элемент 4</div>
+      <div class="item" data-id="5">Элемент 5</div>
+      <div class="item" data-id="6">Элемент 6</div>
+      <div class="item" data-id="1">Элемент 7</div>
+      <div class="item" data-id="2">Элемент 8</div>
+      <div class="item" data-id="3">Элемент 9</div>
+      <div class="item" data-id="4">Элемент 10</div>
+      <div class="item" data-id="5">Элемент 11</div>
+      <div class="item" data-id="6">Элемент 12</div>
+    </div>
+
+    <button class="arrow right">&gt;</button>
+  </div>
+</div>
+
+<div id="modal" class="modal hidden">
+  <h3>Модальное Окно</h3>
+</div>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>
